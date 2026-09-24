@@ -2,6 +2,8 @@
 
 Tracking issue: [#48](https://github.com/stellar-vortex-protocol/vortex-contracts/issues/48)
 
+**Arbiter Selection Process:** See [`docs/arbiter-election-process.md`](./arbiter-election-process.md) (issue #309) for how the community nominates and endorses arbiter candidates. This document describes dispute resolution mechanics; arbiter-election describes who serves on the committee.
+
 ---
 
 ## Problem statement
