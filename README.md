@@ -569,6 +569,24 @@ branch-protection / required-checks maintainer guide.
 For org-wide policies see the
 [org CONTRIBUTING.md](https://github.com/vortex-protocol/.github/blob/main/CONTRIBUTING.md).
 
+## Ecosystem & Grants
+
+The Vortex ecosystem grows through community-built tooling. We maintain a collection
+of **reference implementations** in this repository (`indexer/reference-indexer.js`,
+`examples/risk_aware_solver_bot.py`) intended as starting points for external contributors.
+
+### Building on Vortex
+
+Interested in building indexers, monitoring dashboards, integration libraries, or solver
+infrastructure? See the [Ecosystem Grants Program](./docs/ecosystem-grants-program.md)
+for how to get funding support once the protocol treasury governance process (issue #117)
+is adopted.
+
+Current ecosystem tooling examples:
+- `indexer/reference-indexer.js` — reference intent indexer (extend to production service)
+- `examples/risk_aware_solver_bot.py` — reference solver bot implementation
+- `solver_registry/` contract — solver reputation and tier management
+
 ## License
 
 [MIT](./LICENSE) © 2025–2026 Vortex Protocol Contributors
