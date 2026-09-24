@@ -112,6 +112,14 @@ defended by the `IntentNotOpen` guard (idempotent after first call).
 
 ---
 
+### Proof of Reserves
+
+The protocol publishes a **public proof-of-reserves dashboard** (see [`dashboard/`](./dashboard/) and [`docs/proof-of-reserves-dashboard.md`](./docs/proof-of-reserves-dashboard.md)) that reconciles on-chain solver bond totals against this Assets-at-Risk table. This is a **transparency artifact, not an insurance guarantee** — it verifies that collateral is on-chain but does not guarantee solver performance or user fund recovery.
+
+The dashboard is continuously updated and independently reproducible (data sources and queries are published). Users should read this threat model and the FAQ in the dashboard for caveats.
+
+---
+
 ### Admin Key Operational Security (#122)
 
 The `Admin` address is the single most sensitive key in the protocol. It
