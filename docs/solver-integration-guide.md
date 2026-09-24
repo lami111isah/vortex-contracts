@@ -490,3 +490,22 @@ MAIN LOOP (each new ledger)
         ├── bond_amount check    →  alert if < 2 × MIN_BOND
         └── is_paused?           →  alert if true unexpectedly
 ```
+
+---
+
+## Feedback & Support
+
+### Operational Concerns & Feedback
+
+If you encounter operational constraints, market-design concerns, or protocol friction that affects your solver business, we want to hear about it. Use the [Solver Feedback Process](./solver-feedback-process.md) to raise concerns distinct from bug reports or formal governance proposals.
+
+Examples of actionable solver feedback:
+- "The fill window is systematically too short for route X"
+- "Bond requirements disproportionately affect smaller solvers"
+- "The fee tier thresholds disadvantage solvers with specific execution profiles"
+
+Solver feedback is triaged within 7 days and may inform future protocol governance. See [solver-feedback-process.md](./solver-feedback-process.md) for details.
+
+### Slash Appeals
+
+If you were slashed and believe it was unfair, see the [Slash Appeal Process](./dispute-resolution-design.md) for how to formally contest the slash event.
